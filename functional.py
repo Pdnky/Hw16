@@ -9,7 +9,7 @@ def API_check(api):
         file.write(bank_gov.text)
         file.close()
     else:
-        raise(f'Error{bank_gov.status_code}')
+        raise(f'Error: {bank_gov.status_code}')
 
 
 def Currencies():
